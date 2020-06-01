@@ -19,7 +19,7 @@ namespace BigSchool.Controllers
         // GET: Courses
         public ActionResult Create()
         {
-            var viewModel = new CourseViewModel
+            var viewModel = new CourseViewModel 
             {
                 Categories = _dbContext.Categories.ToList()
             };
